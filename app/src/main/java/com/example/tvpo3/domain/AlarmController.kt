@@ -27,7 +27,7 @@ class AlarmController {
         }
         return alarm
     }
-
+//
     fun dismiss(): Alarm? {
         val current = alarm ?: return null
         if (current.ringing) {
